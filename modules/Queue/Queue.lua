@@ -1,0 +1,3 @@
+local Queue = {}
+
+return Queue

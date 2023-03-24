@@ -2,8 +2,7 @@ title = "CryptUtil"
 gitRepoUrl = "https://github.com/encrxpt3d/CryptUtil"
 
 gitSourceBranch = "main"
-changelog = true
-classOrder = []
+changelog = false
 
 [docusaurus]
 onBrokenLinks = "throw"
@@ -19,3 +18,7 @@ tagline = "A collection of utility modules for Roblox"
 [home]
 enabled = true
 includeReadme = false
+
+classOrder = [
+    "api"
+]

@@ -18,7 +18,3 @@ tagline = "A collection of utility modules for Roblox"
 [home]
 enabled = true
 includeReadme = false
-
-classOrder = [
-    "api"
-]

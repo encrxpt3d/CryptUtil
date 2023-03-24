@@ -1,1 +1,0 @@
-{"version":"2.3.9","fields":["title","content","keywords"],"fieldVectors":[["title/0",[0,36.464]],["content/0",[0,0.365,1,0.575]],["keywords/0",[]]],"invertedIndex":[["hey",{"_index":1,"title":{},"content":{"0":{"position":[[9,4]]}},"keywords":{}}],["titl",{"_index":0,"title":{"0":{"position":[[3,5]]}},"content":{"0":{"position":[[3,5]]}},"keywords":{}}]],"pipeline":["stemmer"]}

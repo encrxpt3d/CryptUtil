@@ -1,5 +1,5 @@
-title = "MyProjectName"  # From Git
-gitRepoUrl = "https://github.com/evaera/moonwave" # From Git
+title = "CryptUtil"
+gitRepoUrl = "https://github.com/encrxpt3d/CryptUtil"
 
 gitSourceBranch = "main"
 changelog = true
@@ -8,15 +8,13 @@ classOrder = []
 [docusaurus]
 onBrokenLinks = "throw"
 onBrokenMarkdownLinks = "warn"
-favicon = ""
-tagline = "A collection of utility modules for Roblox"
 
 # From git:
-organizationName = "AuthorName"
-projectName = "MyProjectName"
-url = "https://AuthorName.github.io"
-baseUrl = "/MyProjectName"
-tagline = "Your project's tagline"
+organizationName = "encrxpt3d"
+projectName = "CryptUtil"
+url = "https://encrxpt3d.github.io"
+baseUrl = "/CryptUtil"
+tagline = "A collection of utility modules for Roblox"
 
 [home]
 enabled = true

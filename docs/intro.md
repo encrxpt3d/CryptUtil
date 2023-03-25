@@ -19,4 +19,12 @@ local Queue = require(Utilities.Queue)
 
 -- Use the modules:
 local testQueue = Queue.new()
+
+testQueue:setFunc(function(...)
+    print("Received:", ...)
+end)
+
+testQueue:run("Hi!")
+testQueue:run(2 + 12)
+testQueue:run(false)
 ```

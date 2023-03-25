@@ -1,14 +1,13 @@
 title = "CryptUtil"
 gitRepoUrl = "https://github.com/encrxpt3d/CryptUtil"
-
 gitSourceBranch = "main"
 changelog = false
+autoSectionPath = "modules"
+classOrder = []
 
 [docusaurus]
 onBrokenLinks = "throw"
 onBrokenMarkdownLinks = "warn"
-
-# From git:
 organizationName = "encrxpt3d"
 projectName = "CryptUtil"
 url = "https://encrxpt3d.github.io"

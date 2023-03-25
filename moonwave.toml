@@ -2,8 +2,6 @@ title = "CryptUtil"
 gitRepoUrl = "https://github.com/encrxpt3d/CryptUtil"
 gitSourceBranch = "main"
 changelog = false
-autoSectionPath = "modules"
-classOrder = []
 
 [docusaurus]
 onBrokenLinks = "throw"

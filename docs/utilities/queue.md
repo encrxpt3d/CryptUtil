@@ -22,15 +22,15 @@ queue:run(false)
 
 ## Class Functions
 
-### new
+### Queue.new()
 
 ```lua
-Queue.new() --> Queue
+Queue.new() --> NewQueue
 ```
 
 Constructs a new queue.
 
-### delete
+### Queue.delete()
 
 ```lua
 Queue.delete("queueName") --> nil
@@ -42,7 +42,7 @@ Deletes the queue.
 
 ## Queue Functions
 
-### setFunc
+### NewQueue:setFunc()
 
 ```lua
 Queue:setFunc(function(...)
@@ -52,7 +52,7 @@ end)
 
 Sets the function which will be ran on each item in the queue once at a time.
 
-### run
+### NewQueue:run()
 
 ```lua
 Queue:run(...) --> any? : any

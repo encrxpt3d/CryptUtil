@@ -21,26 +21,6 @@ local function getKeyFromValue(tbl, value)
     return nil
 end
 
-local function printTable(tbl, depth)
-    depth = depth or 0
-    for k, v in pairs(tbl) do
-        if type(v) == "table" then
-            if depth > 0 then
-                print(string.rep(" ", depth) .. k .. ":")
-            else
-                print(k .. ": ")
-            end
-            printTable(v, depth + 4)
-        else
-            if depth > 0 then
-                print(string.rep(" ", depth) .. k .. ": " .. v .. ",")
-            else
-                print(k .. ": " .. v .. ",")
-            end
-        end
-    end
-end
-
 
 -- [ Queue: Private Functions ]
 
